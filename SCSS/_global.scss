@@ -1,0 +1,22 @@
+$primary-color: red;
+$colors: #afc, #ccf, #fce, #ffa, #9af;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #333;
+    user-select: none;
+    font: 0.9rem/180% Arial, sans-serif;
+    text-align: center;
+}
+
+@for $i from 1 through 6 {
+    h#{$i} {
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+}

@@ -1,0 +1,8 @@
+@use "global" as *;
+@use "global";
+@use "layout" as *;
+
+button {
+    $primary-color: green !global;
+    color: global.$primary-color;
+}
